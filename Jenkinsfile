@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('bulid') {
       steps {
-        sh 'npm install'
+        sh 'echo "master"'
       }
     }
   }
