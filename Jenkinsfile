@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('bulid') {
       steps {
-        sh 'echo "master"'
+        sh 'echo "master 11"'
       }
     }
   }
